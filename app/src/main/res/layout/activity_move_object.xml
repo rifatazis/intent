@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moveObjectActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="spiderman"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Human"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textSize="20sp"/>
+
+</LinearLayout>
